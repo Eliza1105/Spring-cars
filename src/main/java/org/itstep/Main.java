@@ -1,7 +1,7 @@
 package org.itstep;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.itstep.FirmJson.FirmJson;
+import org.itstep.firm.FirmJson;
 
 import java.io.File;
 import java.io.IOException;

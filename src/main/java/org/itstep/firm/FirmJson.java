@@ -1,8 +1,9 @@
-package org.itstep.FirmJson;
+package org.itstep.firm;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
-import org.springframework.ui.Model;
+import org.itstep.model.ModelJson;
+
 
 import java.util.ArrayList;
 
@@ -10,9 +11,10 @@ import java.util.ArrayList;
 public class FirmJson {
     public String id;
     public String name;
-    @JsonProperty("cyrilic-name")
+    @JsonProperty("cyrillic-name")
     public String cyrilicName;
     public String country;
     public boolean popular;
-    public ArrayList<Model> models;
+    public ArrayList<ModelJson> models;
+
 }

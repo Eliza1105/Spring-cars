@@ -1,4 +1,4 @@
-package org.itstep.FirmJson;
+package org.itstep.firm;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -29,4 +29,5 @@ public class Firm {
             cascade = CascadeType.PERSIST, orphanRemoval = true
     )
     private Set<ModelCar> models;
+
 }
